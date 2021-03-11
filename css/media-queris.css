@@ -1,0 +1,229 @@
+/* defult css views are made for a laptop screen */
+
+/* LARGE SCREEN */
+
+@media(min-width: 1500px) {
+
+    /* MAIL */
+
+    .email-table-container td {
+        font-size: 1.2rem;
+    }
+
+
+    .email-from {
+        width: 300px;
+    }
+
+    .email-subject {
+        width: 550px;
+    }
+
+    .email-body {
+        width: 450px;
+    }
+
+
+    /* HOMEPAGE */
+
+    .horse {
+        height: 500px;
+        width: 500px;
+    }
+
+    .main-title {
+        font-size: 4rem;
+    }
+
+    /*KEEP*/
+    .keep-preview-container,
+    .pinned-preview-container {
+        padding: 0;
+    }
+
+    .keep-preview {
+        width: 400px;
+    }
+}
+
+/* MEDIUM */
+
+@media (max-width: 1170px) {
+    .main-layout {
+        max-width: 900px;
+    }
+
+    /* MAIL */
+
+    .main-email-container {
+        max-width: unset;
+    }
+
+    .email-edit-icon {
+        display: inline-block;
+        padding: 2px 0;
+    }
+
+    /* KEEP */
+    .keep-preview-container {
+        width: 90%;
+        min-width: 200px;
+    }
+
+    .pinned-preview-container {
+        width: 90%;
+        min-width: 200px;
+    }
+
+    .keep-preview {
+        width: 250px;
+        min-height: unset;
+        font-size: 1rem;
+    }
+}
+
+/* MEDIUM -SMALL*/
+@media (max-width: 900px) {
+    .main-layout {
+        max-width: 800px;
+    }
+
+    /* KEEP */
+
+    /* MAIL */
+    .email-details-container {
+        max-width: 750px;
+    }
+
+    .email-body {
+        display: none;
+    }
+
+}
+
+/* SMALL */
+
+@media (max-width: 895px) {
+
+    /*MAIN WEBSITE*/
+    .main-layout {
+        max-width: 600px;
+    }
+
+    .header-navbar {
+        width: 80%;
+    }
+
+    .app-page {
+        min-height: 75vh;
+    }
+
+    /*HOME PAGE*/
+
+    .home-page h1 {
+        font-size: 2rem;
+    }
+
+    .team-info-container {
+        flex-direction: column;
+    }
+
+
+    /*ABOUT PAGE*/
+
+    .home-container {
+        flex-direction: column;
+    }
+
+    .horse {
+        height: 250px;
+        width: 250px;
+    }
+
+    /* MAIL */
+    .main-email-container {
+        flex-direction: column;
+    }
+
+    .email-aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email-folders {
+        display: flex;
+    }
+
+    .compose-email-btn {
+        height: 40%;
+    }
+
+    .email-filter-sort {
+        margin-bottom: 20px;
+    }
+
+    /*KEEP*/
+
+    .keep-preview-container,
+    .pinned-preview-container {
+        column-count: 1;
+        padding: 0;
+        min-width: 200px;
+    }
+}
+
+
+@media (max-width: 675px) {
+
+    .keep-preview-container,
+    .pinned-preview-container {
+        column-count: 1;
+        padding: 0;
+        min-width: 200px;
+    }
+}
+
+/*PHONE*/
+@media (max-width: 500px) {
+
+    .home-page h1 {
+        font-size: 1.5rem;
+    }
+
+    /* KEEP */
+    .keep-list {
+        margin: 2%;
+    }
+
+    .keep-add,
+    .keep-add ul {
+        width: 80%;
+    }
+
+    .keep-preview-container,
+    .pinned-preview-container {
+        column-count: 1;
+        padding: 0;
+        min-width: 200px;
+    }
+
+    /* MAIL */
+
+    .email-table-container {
+        margin: 10px 5px;
+    }
+
+    .email-subject {
+        width: 100%;
+    }
+
+    .email-table-container td {
+        font-size: 0.8rem;
+    }
+
+    .email-table-container td.email-date {
+        font-size: 0.7rem;
+    }
+
+}

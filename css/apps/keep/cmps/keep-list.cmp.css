@@ -1,0 +1,24 @@
+.keep-preview-container {
+    column-count: 3;
+    column-gap: 5%;
+    list-style-type: none;
+    width: 85%;
+    margin: 1% auto;
+    transition: .2s all;
+    padding-bottom: 5%;
+}
+
+.pinned-preview-container {
+    column-count: 3;
+    width: 85%;
+    margin: 1% auto;
+    column-gap: 1%;
+}
+
+hr {
+    width: 15%;
+    border: none;
+    border-bottom: 0.6rem dotted rgb(209, 198, 181);
+    ;
+
+}

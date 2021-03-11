@@ -1,0 +1,11 @@
+@import '../cmps/keep-add.cmp.css';
+@import '../cmps/keep-list.cmp.css';
+@import '../cmps/keep-preview.cmp.css';
+
+.keep-app { 
+    text-align: center;
+}
+h3 { 
+    color: #ba9999;
+
+}

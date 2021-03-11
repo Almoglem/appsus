@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu';
+    background-color: #efebea;
+    color: rgb(51,
+            49,
+            49);
+}
+
+button {
+    font-family: 'Ubuntu';
+    color: #3b3b3b;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61,
+            61,
+            61);
+}
+
+button:hover,
+a:hover {
+    color: #a17373;
+}
+
+ul {
+    list-style: none;
+}
+
+.swal-modal {
+    background-color: #d1c1b7;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* scroll bar */
+::-webkit-scrollbar-thumb {
+    background: #cebcbc;
+}
+
+::-webkit-scrollbar {
+    background-color: #e4dcdc;
+}
